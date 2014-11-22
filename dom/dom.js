@@ -10,8 +10,15 @@
 // Find the Google search button and store it in a variable.
 // Modify the text of the button so that it says "Yahooo!" instead.
 
-// EXERCISE: About Me
 
+var logo = document.querySelector("#hplogo img");
+logo.src = 'http://www.logostage.com/logos/yahoo.GIF';
+
+var button = document.querySelector("#gbqfba");
+button.innerHTML = 'Yahoooo!';
+
+
+// EXERCISE: About Me
 // Cuz every webpage needs an "About" section.
 
 // Start with this HTML and save it as "aboutme.html":
@@ -36,6 +43,7 @@
 // Add a script tag to the bottom.
 // Change the body style so it has a font-family of "Arial, sans-serif".
 // Replace each of the spans (nickname, favorites, hometown) with your own information.
+
 // Iterate through each li and change the class to "listitem". Add a style tag that sets a rule for "listitem" to make the color red.
 // Create a new img element and set its src attribute to a picture of you. Append that element to the page.
 
